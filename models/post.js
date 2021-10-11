@@ -14,6 +14,7 @@ const postSchema = new Schema({
     },
     uploadImage : {
         type: String, // Since we will be storing the url of the image
+        //Since we will be saving details to the data base before we upload image to digital ocean, so I have commented out the required: true feild.
         // required: true
     },
     description: {
